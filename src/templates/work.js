@@ -29,6 +29,9 @@ export default ({ data }) => (
           <Img fluid={data.datoCmsWork.coverImage.fluid} />
         </div>
       </div>
+      <div>
+      `audio: /static/test.mp3`
+      `audio: https://www.mytestaudiosource.com/test.mp3`      </div>      
     </article>
   </Layout>
 )
