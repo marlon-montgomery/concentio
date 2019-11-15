@@ -5,7 +5,6 @@ module.exports = {
     title: `Concentio`,
   },
   plugins: [
-    'gatsby-plugin-tinacms',
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
