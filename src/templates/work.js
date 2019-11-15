@@ -30,8 +30,8 @@ export default ({ data }) => (
         </div>
       </div>
       <div>
-      `audio: /static/test.mp3`
-      `audio: https://www.mytestaudiosource.com/test.mp3`      </div>      
+      audio: /static/test.mp3
+      audio: https://www.mytestaudiosource.com/test.mp3      </div>      
     </article>
   </Layout>
 )
