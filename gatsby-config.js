@@ -12,15 +12,15 @@ module.exports = {
       resolve: `gatsby-source-datocms`,
       options: {
         apiToken: process.env.DATO_API_TOKEN,
+      resolve: 'gatsby-remark-audio',
+      options: {
+        preload: 'auto',
+        loop: false,
+        controls: true,
+        muted: false,
+        autoplay: false
+        }
       },
-       resolve: 'gatsby-remark-audio',
-       options: {
-          preload: 'auto',
-          loop: false,
-          controls: true,
-          muted: false,
-          autoplay: false
-        },        
     },
   ],
 }
