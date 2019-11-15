@@ -13,7 +13,6 @@ module.exports = {
       options: {
         apiToken: process.env.DATO_API_TOKEN,
       },
-      {
        resolve: 'gatsby-remark-audio',
        options: {
           preload: 'auto',
