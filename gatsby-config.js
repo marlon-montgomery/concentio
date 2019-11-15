@@ -21,8 +21,7 @@ module.exports = {
           controls: true,
           muted: false,
           autoplay: false
-        },      
-      {   
+        },        
     },
   ],
 }
